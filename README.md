@@ -62,7 +62,7 @@ To set up MViT-TR for training and evaluation, follow these steps:
 
 ![MViT-TR Model Architecture](figs/synth_samples.jpg)
 
-*Figure 1: Samples from STS-TR dataset.*
+*Figure 2: Samples from STS-TR dataset.*
 
 ---
 
