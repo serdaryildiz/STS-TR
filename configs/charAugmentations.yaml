@@ -1,0 +1,38 @@
+
+geometricAugmentations:
+  ElasticTransformation:
+    # probability
+    p: 0.2
+    # alpha
+    min_alpha: 10
+    max_alpha: 30
+    # sigma
+    min_sigma: 4
+    max_sigma: 12
+    # mode
+    mode: nearest
+
+  ElasticTransformation2:
+    # probability
+    p: 0.98
+    # alpha
+    min_alpha: 0.1
+    max_alpha: 2
+    # sigma
+    min_sigma: 1
+    max_sigma: 4
+    # mode
+    mode: nearest
+
+customAugmentations:
+  PadLeftRight:
+    p: 0.3
+    max_pad: 0.25
+    min_pad: 0.05
+
+  ResizeChar:
+    p: 0.005
+    max_ratio: 2.5
+    min_ratio: 0.4
+    min_W: 7
+    min_H: 10

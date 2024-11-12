@@ -1,0 +1,33 @@
+
+Texture:
+  TextureMixer:
+    p: 0.6
+    root: sources/textures/dtd/images
+    maxOpacity: 1
+
+
+customLayoutAugmentation:
+  WrapText:
+    p: 0.3
+    minArcAngle: 5
+    maxArcAngle: 25
+    minRotateAngle: 0
+    maxRotateAngle: 5
+
+  WrapText2:
+    p: 0.005
+    minArcAngle: 45
+    maxArcAngle: 160
+    minRotateAngle: 0
+    maxRotateAngle: 20
+
+  AffineTransform:
+    p: 0
+    maxRotate: 10
+    maxTranslate: 5
+
+  Transformation3D:
+    p: 0.4
+    maxTheta: 45  # rotation around x-axis
+    maxPhi: 45 # rotation around y-axis
+    maxGamma: 1 # rotation around z-axis

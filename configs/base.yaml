@@ -1,0 +1,13 @@
+
+root: ./generatedImages/
+isLMDB: True
+numUniqueText: 300000
+getSamples: [2, 5, 4]
+
+FONT:
+#        fonts: ["./sources/fonts/UbuntuCondensed-Regular.ttf",
+#                "./sources/fonts/UbuntuMono-Regular.ttf",
+#                "./sources/fonts/Ubuntu-Regular.ttf"]
+        fonts: "./sources/fonts/"
+        minSize: 25
+        maxSize : 60

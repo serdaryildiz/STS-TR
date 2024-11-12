@@ -1,0 +1,11 @@
+
+
+datasets: ["./sources/text/turkish_words.txt",
+            "./sources/text/turkish_words_berturk.txt"]
+
+pWord: 0.995
+pLower10: 0.9
+pAllUpperCase: 0.45
+pFirstUpperCase: 0.1
+pAddNonAlphanumeric: 0.01
+maxLength: 24

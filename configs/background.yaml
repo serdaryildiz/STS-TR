@@ -1,0 +1,6 @@
+
+BackgroundTexture:
+  root: sources/background/val2017
+  numColor: 5 # when calculating is appropriate?
+  distanceTh: 0.4
+  oneColorP: 0.25
